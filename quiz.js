@@ -92,7 +92,7 @@ document.addEventListener("DOMContentLoaded", function () {
       }
       resultMessage = resultMessage.slice(0, -2); // Remove the trailing comma and space
       resultMessage += `. Well done!`;
-      codeLockerElement.innerHTML = `<a href="Cl.html">CodeLocker</a>`;
+      codeLockerElement.innerHTML = `<a href="CL.html">CodeLocker</a>`;
     }
     resultElement.innerHTML = resultMessage;
     resultElement.style.display = "block";
