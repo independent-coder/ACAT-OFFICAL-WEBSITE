@@ -1,0 +1,76 @@
+/* Reset some default styles */
+body,
+h1,
+h2,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-image: url("https://wallpaperaccess.com/full/7270362.gif");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-color: #000;
+  color: white;
+}
+
+header {
+  background-color: #000;
+  padding: 15px 0;
+  text-align: center;
+}
+
+main {
+  text-align: center;
+  padding: 5px;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: mediumaquamarine;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+/* Add this CSS code to style and center your input */
+input {
+  text-align: center;
+  color: rgb(0, 174, 255);
+  width: 50%;
+  border: 2px solid rgb(88, 88, 88); /* Add a border */
+  padding: 10px; /* Add some padding */
+  border-radius: 5px; /* Add rounded corners */
+  background-color: black; /* Change the background color */
+  font-size: 16px; /* Change the font size */
+  margin: 0 auto; /* Center horizontally */
+  display: block; /* Center vertically */
+  margin-top: 100px; /* Adjust top margin for vertical centering */
+}
+
+/* Add hover effect to the input */
+input:hover {
+  background-color: #0f0f0f; /* Darker background color on hover */
+}
+
+footer {
+  text-align: center;
+  background-color: #000;
+  color: white;
+  padding: 10px;
+  position: absolute;
+  bottom: 0;
+  width: 97.6%;
+  font-family: "Roboto", sans-serif;
+}

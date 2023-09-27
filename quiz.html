@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="quiz.css" />
+    <script src="adblock-detector.js"></script>
+    <title>Quiz</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="hacking-tools.html">Hacking Tools</a></li>
+          <li><a href="quiz.html">Quiz</a></li>
+          <li><a href="CL.html">Code Locker</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h1>Quiz for joining the discord.</h1>
+      <div id="quiz-container">
+        <p id="question">Question 1: What is Python?</p>
+        <input type="radio" name="answer" value="A programming language" /> A
+        programming language<br />
+        <input type="radio" name="answer" value="A type of snake" /> A type of
+        snake<br />
+        <button id="next-button">Next</button>
+      </div>
+      <div id="result-container">
+        <p id="result"></p>
+        <p id="code-number"></p>
+        <p id="code-locker"></p>
+      </div>
+    </main>
+
+    <footer>&copy; 2023 ACAT. All rights reserved.</footer>
+    <script src="quiz.js"></script>
+    <script>
+      if (window.adsAreEnabled === undefined) {
+        // Adblocker detected, show fallback message
+        showAdblockMessage();
+      }
+
+      function showAdblockMessage() {
+        var messageDiv = document.createElement("div");
+        messageDiv.innerHTML =
+          "Support our team-work by disabling your adblocker!";
+        // Add a class to the messageDiv for styling
+        messageDiv.classList.add("adblock-message");
+
+        // Append the message to the document
+        document.body.appendChild(messageDiv);
+      }
+    </script>
+  </body>
+</html>
